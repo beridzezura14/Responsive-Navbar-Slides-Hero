@@ -1,5 +1,5 @@
 import { useState } from "react";
-import AnimatedCursor from "react-animated-cursor"
+// import AnimatedCursor from "react-animated-cursor"
 
 import Metro from './assets/img/bg-1.jpg'
 import CallOfDuty from './assets/img/bg-2.jpg'
@@ -9,7 +9,7 @@ import Assasin from './assets/img/mainbg.jpg'
 function App() {
   return(
     <>
-      <Cursor />
+      {/* <Cursor /> */}
       <Header />
       <Hero />
     </>
@@ -123,41 +123,41 @@ function Hero(){
   )
 }
 
-function Cursor() {
-  return (
-      <AnimatedCursor
-          innerSize={8}
-          outerSize={8}
-          color='255, 69, 1'
-          outerAlpha={0.2}
-          innerScale={0.7}
-          outerScale={5}
-          clickables={[
-              'a',
-              'input[type="text"]',
-              'input[type="email"]',
-              'input[type="number"]',
-              'input[type="submit"]',
-              'input[type="image"]',
-              'label[for]',
-              'select',
-              'textarea',
-              'button',
-              '.link',
-              {
-                target: '.custom',
-                options: {
-                  innerSize: 12,
-                  outerSize: 12,
-                  color: '255, 255, 255',
-                  outerAlpha: 0.3,
-                  innerScale: 0.7,
-                  outerScale: 5
-                }
-              }
-            ]}
-      />
-  )
-}
+// function Cursor() {
+//   return (
+//       <AnimatedCursor
+//           innerSize={8}
+//           outerSize={8}
+//           color='255, 69, 1'
+//           outerAlpha={0.2}
+//           innerScale={0.7}
+//           outerScale={5}
+//           clickables={[
+//               'a',
+//               'input[type="text"]',
+//               'input[type="email"]',
+//               'input[type="number"]',
+//               'input[type="submit"]',
+//               'input[type="image"]',
+//               'label[for]',
+//               'select',
+//               'textarea',
+//               'button',
+//               '.link',
+//               {
+//                 target: '.custom',
+//                 options: {
+//                   innerSize: 12,
+//                   outerSize: 12,
+//                   color: '255, 255, 255',
+//                   outerAlpha: 0.3,
+//                   innerScale: 0.7,
+//                   outerScale: 5
+//                 }
+//               }
+//             ]}
+//       />
+//   )
+// }
 
 export default App;

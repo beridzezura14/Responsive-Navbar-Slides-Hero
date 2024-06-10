@@ -38,7 +38,7 @@ body{
   display: flex;
   align-items: center;
   gap: 2rem;
-  
+  z-index: 1111;
 }
 
 .nav__toggler div{
@@ -57,10 +57,6 @@ body{
 
 
 
-/* Nav active class */
-
-
-
 
 /* hero section */
 
@@ -68,7 +64,7 @@ body{
   max-width: 1024px;
   margin: auto;
   color: #ffffff;
-  height: 85dvh;
+  height: 93dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
